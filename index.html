@@ -39,6 +39,9 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#sec6">Contact</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/updates.html">Updates</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -68,7 +71,7 @@
 					<li><a href="#sec4">My own projects</a></li>
 					<li><a href="#sec5">Share what you think about unethical social media platforms</a></li>
 					<li><a href="#sec6">Contact</a></li>
-					<li><a href="#sec7">Wait, what's this...</a></li>
+					<li><a href="#sec7">Wait, what does this button actually do?</a></li>
 					<li><a href="#sec8">Updates</a></li>
 					<li><a href="#sec9">That's me</a></li>
 				</ol>
@@ -212,7 +215,7 @@
 			<hr>
 			<section id="sec5">
 				<h3>What do you think about <strong>unethical</strong> social media platforms</h3>
-				<figure class="figure">
+				<figure class="figure text-center">
 					<img src="/img/facebook.webp" class="figure-img img-fluid rounded img-thumbnail col-md-6" alt="An image for facebook">
 					<figcaption class="figure-caption">An image for facebook</figcaption>
 				</figure>
@@ -229,18 +232,45 @@
 			</section>
 			<hr>
 			<section id="sec7">
-				<h3>Wait, what's this...</h3>
-				<p>Click this button to get permanent access to GDucpm's secret vault.</p>
+				<h3>Wait, what does this button actually do?</h3>
+				<p>Click this button to get <strong>permanent access</strong> to GDucpm's secret vault.</p>
 				<div class="text-center">
 					<a role="button" id="interactive01" class="btn btn-danger">Click me</a>
 					<p id="interactive01-message" class="text-center lead" aria-live="polite"></p>
 				</div>
+				<small>Credits to <cite title="Robert Topala">RobTop</cite> (main idea), <cite title="Alan Walker">Alan Walker</cite> (song - The Spectre) and <cite title="GDucpm">past me</cite> (some sentences).</small>
 			</section>
 			<hr>
 			<section id="sec8">
 				<h3>Updates</h3>
-				<div class="alert alert-danger">I finally successfully made my first kernel! This kernel is written in C and prints a simple message of "GTechOS is live!". It's a very starter kernel project but I see it a big achievement.</div>
-				<div class="alert alert-danger">I'm starting on OSDev and trying to make a functional kernel. I know, OSDev's one of the hardest branches in IT, but Linus is the same person who made a kernel when he was in University of Helsinki. My plan is to ask AI to generate code, then I learn about C/NASM while building up that OS. It's one job that's really hard, and it's part of my mission of providing a unified system of libre hardware and software.</div>
+				<article class="alert alert-success">
+					<p>I'm really happy that the recentmost AUR project, ttybatd, has not been flagged with a deletion request, compared to my first package which was flagged immediately and removed within a week because it was too useless.</p>
+						<figure class="figure text-center">
+						<img src="/img/updates-02.png" class="figure-img img-fluid rounded img-thumbnail col-md-6" alt="Gentoo code compilation">
+						<figcaption class="figure-caption">AUR - ttybatd</figcaption>
+					</figure>
+					<p>Though it's still really niche, I'm happy with it.</p>
+				</article>
+				<article class="alert alert-warning">
+					<p>I am currently installing Gentoo Linux, and it is the world's hardest Linux distribution to use. A lot of parts for the (manual) installation is very similar to Arch's hands-on installation, but some parts like the stage3 tarball are completely different. Gotta say, I spent 12 hours for the installation and it is not done. You see, on Gentoo, everything is compiled from source code (code developers can read) to bytecode/binary code (code machines can read) and it is the whole philosophy of Gentoo. However, compiling them (especially in a virtual machine like me) takes an enromous amount of time and needs patience.</p>
+					<figure class="figure text-center">
+						<img src="/img/updates-02.png" class="figure-img img-fluid rounded img-thumbnail col-md-6" alt="Gentoo code compilation">
+						<figcaption class="figure-caption">The package manager on Gentoo is portage, compiling packages with it is called emerging.</figcaption>
+					</figure>
+				</article>
+				<article class="alert alert-success">
+					<p>I finally successfully made my first kernel! This kernel is written in C and prints a simple message of "GTechOS is live!". It's a very starter kernel project but I see it a big achievement.</p>
+					<figure class="figure text-center">
+						<video controls class="figure-img img-fluid rounded img-thumbnail col-md-6" alt="A kernel printing a simple message" autoplay muted>
+							<source src="/media/updates-01-webm.webm" type="video/mp4">
+							<source src="/media/updates-01-webm.webm" type="video/webm">
+							<source src="/media/updates-01-webm.webm" type="video/ogg">
+							Your browser does not support the video tag a.k.a. videos cannot be played on your browser.
+						</video>
+						<figcaption class="figure-caption">The first stable GTechOS running on QEMU (KVM), Arch Linux</figcaption>
+					</figure>
+				</article>
+				<a href="/updates.html" role="button" class="btn btn-danger">View more updates</a>
 			</section>
 			<hr>
 			<section id="sec9">

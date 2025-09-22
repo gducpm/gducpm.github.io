@@ -34,14 +34,18 @@ const messages = [
 	"Fun fact: Press Alt+[SysRq]+C and your Linux system will crash.",
 	"93n700 4rch f3d0r4 u6un7u 41pin3 514ckw4r3 0p3n5u53 3l3m3n74ry min7 m4nj4r0",
 	"Wow, why are you running htop inside neovim?",
-	"exec /usr/bin/pls_stop_clicking"
+	"exec /usr/bin/pls_stop_clicking",
+	"Is this the place that I call home? ...to find what I've become",
+	"Walk along the path unknown... we live, we love, we lie.",
+	"Deep in the dark, I don't need the light - there's a ghost inside me",
+	"It all belongs to the other side... we live, we love, we lie."
 ];
 button.addEventListener("click", () => {
 	const random = Math.floor(Math.random() * messages.length);
 	if (clicks > 0) {
 		message.textContent = messages[random] + " (Please try again)";
 	} else {
-		message.textContent = "An unknown error has occurred. However, please click again NOW that it might actually work.";
+		message.textContent = "... Just do that again or go touch grass.";
 	}
 	clicks++;
 	// Add shake animation

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>GDucpm - It's me little sysadmin</title>
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+		<link rel="icon" href="/img/favicon.ico">
+
+		<link rel="stylesheet" href="/css/fonts.css">
+		<link rel="stylesheet" href="/css/shake.css">
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md bg-danger navbar-dark sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="/index.html">
+					<img src="/img/gducpm.png" id="navbarlogo" alt="the GDucpm Logo">
+					GDucpm
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation bar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarContent">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="/index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://github.com/gducpm" target="_blank" rel="noopener noreferrer">GitHub</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://aur.archlinux.org/account/GDucpm" target="_blank" rel="noopener noreferrer">Arch User Repository</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sec6">Contact</a>
+						</li>
+                        <li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Updates</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<header>
+			<div class="row g-0 h-100">
+				<div class="container-fluid">
+					<img src="/img/gducpm.png" id="headerlogo" alt="the GDucpm logo">
+					<h1>GDucpm - Updates from me</h1>
+				</div>
+			</div>
+		</header>
+		<div class="container-fluid mt-5">
+            <h2>Newest</h2>
+            <hr>
+            <article class="alert alert-success">
+                <p>I'm really happy that the recentmost AUR project, ttybatd, has not been flagged with a deletion request, compared to my first package which was flagged immediately and removed within a week because it was too useless.</p>
+                    <figure class="figure text-center">
+                    <img src="/img/updates-02.png" class="figure-img img-fluid rounded img-thumbnail col-md-6" alt="Gentoo code compilation">
+                    <figcaption class="figure-caption">AUR - ttybatd</figcaption>
+                </figure>
+                <p>Though it's still really niche, I'm happy with it.</p>
+            </article>
+            <article class="alert alert-warning">
+				<p>I am currently installing Gentoo Linux, and it is the world's hardest Linux distribution to use. A lot of parts for the (manual) installation is very similar to Arch's hands-on installation, but some parts like the stage3 tarball are completely different. Gotta say, I spent 12 hours for the installation and it is not done. You see, on Gentoo, everything is compiled from source code (code developers can read) to bytecode/binary code (code machines can read) and it is the whole philosophy of Gentoo. However, compiling them (especially in a virtual machine like me) takes an enromous amount of time and needs patience.</p>
+				<figure class="figure text-center">
+					<img src="/img/updates-02.png" class="figure-img img-fluid rounded img-thumbnail col-md-6" alt="Gentoo code compilation">
+					<figcaption class="figure-caption">The package manager on Gentoo is portage, compiling packages with it is called emerging.</figcaption>
+				</figure>
+            </article>
+			<article class="alert alert-success">
+				<p>I finally successfully made my first kernel! This kernel is written in C and prints a simple message of "GTechOS is live!". It's a very starter kernel project but I see it a big achievement.</p>
+				<figure class="figure text-center">
+					<video controls class="figure-img img-fluid rounded img-thumbnail col-md-6" alt="A kernel printing a simple message" autoplay muted>
+						<source src="/media/updates-01-webm.webm" type="video/mp4">
+						<source src="/media/updates-01-webm.webm" type="video/webm">
+						<source src="/media/updates-01-webm.webm" type="video/ogg">
+						Your browser does not support the video tag a.k.a. videos cannot be played on your browser.
+					</video>
+    				<figcaption class="figure-caption">The first stable GTechOS running on QEMU (KVM), Arch Linux</figcaption>
+				</figure>
+			</article>
+            <article class="alert alert-primary">
+                <p>GTechOS will be listed as an official project on this site soon.</p>
+            </article>
+			<article class="alert alert-primary">
+				<p>I'm starting on OSDev and trying to make a functional kernel. I know, OSDev's one of the hardest branches in IT, but Linus is the same person who made a kernel when he was in University of Helsinki. My plan is to ask AI to generate code, then I learn about C/NASM while building up that OS. It's one job that's really hard, and it's part of my mission of providing a unified system of libre hardware and software.</p>
+            </article>
+            <hr>
+            <h2>Oldest</h2>
+		</div>
+		<footer class="container-fluid bg-danger text-center text-white py-5">
+			<img src="/img/gducpm.png" id="footerlogo">
+			<h2>GDucpm</h2>
+			<p>© Copyright 2025 GDucpm</p>
+			<p><strong>pls don't steal, this site is mine.</strong></p>
+			<br>
+			<p>A young little sysadmin, programmer, and philosopher</p>
+		</footer>
+	</body>
+	<script src="/js/interactive01.js"></script>
+</html>
