@@ -39,3 +39,6 @@ code {
 #interactive01-message {
 	color: #f00;
 }
+.no-fb-button {
+	max-width: 200px;
+}
