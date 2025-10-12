@@ -2,33 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://gducpm.github.io/index.html</loc>
+        <loc>https://gducpm.github.io</loc>
         <priority>1.0</priority>
         <lastmod>2025-10-12</lastmod>
+        <changefreq>hourly</changefreq> <!--This is a lie-->
     </url>
         
     <url>
-        <loc>https://gducpm.github.io/updates.html</loc>
+        <loc>https://gducpm.github.io/updates</loc>
         <priority>0.7</priority>
         <lastmod>2025-10-12</lastmod>
+        <changefreq>hourly</changefreq>
     </url>
 
     <url>
-        <loc>https://gducpm.github.io/projects.html</loc>
+        <loc>https://gducpm.github.io/projects</loc>
         <priority>0.7</priority>
         <lastmod>2025-10-12</lastmod>
+        <changefreq>hourly</changefreq>
     </url>
 
     <url>
-	<loc>https://gducpm.github.io/achiev.html</loc>
+	<loc>https://gducpm.github.io/achiev</loc>
         <priority>0.8</priority>
         <lastmod>2025-10-12</lastmod>
-    </url>
-
-    <url>
-        <loc>https://gducpm.github.io/img/favicon.ico</loc>
-        <priority>0.3</priority>
-        <lastmod>2025-10-12</lastmod>
+        <changefreq>hourly</changefreq>
     </url>
 
 </urlset>
