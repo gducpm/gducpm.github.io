@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://example.com/index.html</loc>
+        <loc>https://gducpm.github.io/index.html</loc>
         <priority>1.0</priority>
     </url>
         
     <url>
-        <loc>https://example.com/updates.html</loc>
+        <loc>https://gducpm.github.io/updates.html</loc>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://example.com/projects.html</loc>
+        <loc>https://gducpm.github.io/projects.html</loc>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://example.com/achiev.html</loc>
+	<loc>https://gducpm.github.io/achiev.html</loc>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://example.com/img/favicon.ico</loc>
+        <loc>https://gducpm.github.io/img/favicon.ico</loc>
         <priority>0.3</priority>
     </url>
 
